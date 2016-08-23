@@ -437,7 +437,7 @@ $('.yes>.topleft').each(function(i){
 	i++;
 	if(i<=28) var q=i;
 	if(i>=38 && i<=47) var q=i-9;
-	if(i>=29 && i<=37) var q=i+9;
+	if(i>=29 && i<=37) var q=i+10;
 	// if(i>=39 && i<=48) $(this).html(i-9);
 	$(this).html(q);
 	$(this).parent().attr("socindex",q);
