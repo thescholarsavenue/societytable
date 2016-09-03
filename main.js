@@ -267,7 +267,7 @@ datax=[
     "Size": "M",
     "Recognized": 0,
     "Link": "https://www.facebook.com/TeamKART/",
-    "Description": "TeamKART is a group of students from IIT Kharagpur who like to explore the practical side of automotive engineering. They design, manufacture and test Formula prototype race cars and represent IIT Kharagpur in FSAE competitions."
+    "Description": "TeamKART is the official Formula Student team of IIT Kharagpur. They are a group of students who design, manufacture and test Formula style racecars and represent IIT Kharagpur in FSAE competitions."
   },
   {
     "Index": 28,
