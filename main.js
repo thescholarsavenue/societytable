@@ -117,7 +117,7 @@ datax=[
     "Size": "M",
     "Recognized": 1,
     "Link": "https://www.facebook.com/tlsiitkgp/",
-    "Description": "TLS, one of the oldest societies of the campus, has been an outlet for the literary skills of the Kgp populace. Their notable works include Hang On's, Pulse and Alankar."
+    "Description": "TLS, one of the oldest societies of the campus, has been an outlet for the literary skills of the Kgp populace. Their notable works include Hang On's, Pulse and Alankar. They also hold the events 'Kavyanjali' and 'Kavya Sandhya'"
   },
   {
     "Index": 13,
@@ -221,7 +221,7 @@ datax=[
   },
   {
     "Index": 23,
-    "Symbol": "Cm",
+    "Symbol": "Cq",
     "Name": "Communiqué",
     "Year": 2006,
     "Size": "S",
@@ -257,7 +257,7 @@ datax=[
     "Size": "L",
     "Recognized": 1,
     "Link": "https://www.facebook.com/Breakfreenowornever/",
-    "Description": "Brekfree is the campus dance society that acts as a common platform for students interested in dancing and choreography, and exploring the various genres of dance."
+    "Description": "Breakfree is the campus dance society that acts as a common platform for students interested in dancing and choreography, and exploring the various genres of dance."
   },
   {
     "Index": 27,
@@ -271,7 +271,7 @@ datax=[
   },
   {
     "Index": 28,
-    "Symbol": "Kg",
+    "Symbol": "Kr",
     "Name": "Kharagpur Robosoccer Students’ Group",
     "Year": 2008,
     "Size": "L",
@@ -353,7 +353,7 @@ datax=[
     "Index": 36,
     "Symbol": "Pd",
     "Name": "ProDex",
-    "Year": 2014,
+    "Year": 2012,
     "Size": "M",
     "Recognized": 0,
     "Link": "https://www.facebook.com/prodex.iitkgp/",
