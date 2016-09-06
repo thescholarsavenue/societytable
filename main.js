@@ -6,7 +6,7 @@ datax=[
     "Year": 2013,
     "Size": "XL",
     "Recognized": 0,
-    "Link": "https://www.facebook.com/iitkgpfc/",
+    "Link": "https://www.facebook.com/kossiitkgp/",
     "Description": "A bunch of open source enthusiasts and previously called the ‘Firefox club’, KOSS is aimed at creating awareness about web and the open source movement."
   },
   {
