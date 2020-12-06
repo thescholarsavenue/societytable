@@ -1,4 +1,4 @@
-datax=[
+datax = [
   {
     "Index": 1,
     "Symbol": "Os",
@@ -471,59 +471,67 @@ datax=[
   }
 ];
 
-$(document).ready(function(){
-	var h=$('.element').css('width');
-$('.element').css("height",h);
+$(document).ready(function () {
+  var h = $('.element').css('width');
+  $('.element').css("height", h);
 
-$('.element').html('<div class="topleft">A</div><div class="topright">B</div><div class="elename">Mg</div><div class="botleft">C</div><div class="botright">D</div>');
-$('.yes').attr("data-toggle","tooltip");
+  $('.element').html('<div class="topleft">A</div><div class="topright">B</div><div class="elename">Mg</div><div class="botleft">C</div><div class="botright">D</div>');
+  $('.yes').attr("data-toggle", "tooltip");
 
-// $('.yes').attr("data-delay",'{"show":"200", "hide":"200"}');
-
-
-$('.yes>.topleft').each(function(i){
-	i++;
-	if(i<=28) var q=i;
-	if(i>=38 && i<=47) var q=i-9;
-	if(i>=29 && i<=37) var q=i+10;
-	// if(i>=39 && i<=48) $(this).html(i-9);
-	$(this).html(q);
-	$(this).parent().attr("socindex",q);
-  $(this).parent().attr("data-html","true");
-});
-$('.yes').each(function(i){
-	var ind=$(this).attr("socindex");
-	$(this).attr("title",'<h5 style="text-align:center">'+datax[ind-1].Name+"</h5><h6 style='line-spacing:1.68'>"+datax[ind-1].Description+'</h6>');
-	$(this).click(function(){
-if(datax[ind-1].Link.indexOf('groups')==-1){window.open(datax[ind-1].Link, '_blank');}
-else{window.open(datax[ind-1].Link, '_blank');}
-	});
-});
+  // $('.yes').attr("data-delay",'{"show":"200", "hide":"200"}');
 
 
-$('.yes>.topright').each(function(i){
-	var ind=$(this).parent().attr("socindex");
-	$(this).html(datax[ind-1].Year);
-});
-$('.yes>.botleft').each(function(i){
-	var ind=$(this).parent().attr("socindex");
-	if(datax[ind-1].Recognized==1){$(this).html('*');}
-	else{$(this).html('');}
-});
-$('.yes>.botright').each(function(i){
-	var ind=$(this).parent().attr("socindex");
-	$(this).html(datax[ind-1].Size);
+  $('.yes>.topleft').each(function (i) {
+    i++;
+    if (i <= 28) var q = i;
+    if (i >= 38 && i <= 47) var q = i - 9;
+    if (i >= 29 && i <= 37) var q = i + 10;
+    // if(i>=39 && i<=48) $(this).html(i-9);
+    $(this).html(q);
+    $(this).parent().attr("socindex", q);
+    $(this).parent().attr("data-html", "true");
+  });
+  $('.yes').each(function (i) {
+    var ind = $(this).attr("socindex");
+    $(this).attr("title", '<h5 style="text-align:center">' + datax[ind - 1].Name + "</h5><h6 style='line-spacing:1.68'>" + datax[ind - 1].Description + '</h6>');
+    $(this).click(function () {
+      if (datax[ind - 1].Link.indexOf('groups') == -1) { window.open(datax[ind - 1].Link, '_blank'); }
+      else { window.open(datax[ind - 1].Link, '_blank'); }
+    });
+  });
 
-});
-$('.yes>.elename').each(function(i){
-	var ind=$(this).parent().attr("socindex");
-	$(this).html(datax[ind-1].Symbol);
 
+  $('.yes>.topright').each(function (i) {
+    var ind = $(this).parent().attr("socindex");
+    $(this).html(datax[ind - 1].Year);
+  });
+  $('.yes>.botleft').each(function (i) {
+    var ind = $(this).parent().attr("socindex");
+    if (datax[ind - 1].Recognized == 1) { $(this).html('*'); }
+    else { $(this).html(''); }
+  });
+  $('.yes>.botright').each(function (i) {
+    var ind = $(this).parent().attr("socindex");
+    $(this).html(datax[ind - 1].Size);
+
+  });
+  $('.yes>.elename').each(function (i) {
+    var ind = $(this).parent().attr("socindex");
+    $(this).html(datax[ind - 1].Symbol);
+
+  });
+  $('.donn').html('<div class="elename">&nbsp;&darr;</div>');
+  $('[data-toggle="tooltip"]').tooltip();
 });
-$('.donn').html('<div class="elename">&nbsp;&darr;</div>');
-$('[data-toggle="tooltip"]').tooltip(); 
+$(document).resize(function () {
+  var h = $('.element').css('width');
+  $('.element').css("height", h);
 });
-$(document).resize(function(){
-	var h=$('.element').css('width');
-$('.element').css("height",h);
-});
+
+(function (d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
