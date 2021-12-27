@@ -586,7 +586,7 @@ datax = [
     "Year": 2015,
     "Size": "NA",
     "Recognized": 1,
-    "Link": "https://www.facebook.com/cgliitkgp/",
+    "Link": "https://www.facebook.com/cgsiitkgp/",
     "Description": "IIT KGP's first of its kind graphics development group focused on game development, AR/VR and graphics research."
   },
   {
