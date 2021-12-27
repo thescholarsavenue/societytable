@@ -582,10 +582,10 @@ datax = [
   {
     "Index": 59,
     "Symbol": "Cg",
-    "Name": "Computer Graphics Lab",
+    "Name": "Computer Graphics Society",
     "Year": 2015,
     "Size": "NA",
-    "Recognized": 0,
+    "Recognized": 1,
     "Link": "https://www.facebook.com/cgliitkgp/",
     "Description": "IIT KGP's first of its kind graphics development group focused on game development, AR/VR and graphics research."
   },
